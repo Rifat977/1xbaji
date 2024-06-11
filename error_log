@@ -1,0 +1,4 @@
+[29-Feb-2024 13:29:41 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/tashygbg/multivendor.apitsoft.com/modules/betting/controllers/Betting.php on line 690
+[29-Feb-2024 13:29:43 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/tashygbg/multivendor.apitsoft.com/modules/betting/controllers/Betting.php on line 690
+[29-Feb-2024 13:29:50 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/tashygbg/multivendor.apitsoft.com/modules/betting/controllers/Betting.php on line 690
+[29-Feb-2024 13:29:51 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/tashygbg/multivendor.apitsoft.com/modules/betting/controllers/Betting.php on line 690

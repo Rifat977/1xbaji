@@ -1,0 +1,232 @@
+
+
+@media only screen and (max-width: 810px) {
+.register-sections,
+    .fsdfsdfsf,
+    .body-content {
+        /* width: 100% ; */
+        width: calc(100% / 2);
+    }
+    .top_header {
+        /* width: 100% ; */
+        width: calc(100% / 2);
+    }
+        .v-acount-list .v-list-item {
+            width: 87px;
+            height: 82px;
+        }
+
+}
+@media only screen and (max-width: 800px) {
+
+.v-acount-list .v-list-item {
+        width: 86px;
+        height: 81px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+.register-sections,
+    .fsdfsdfsf,
+    .body-content {
+        width: 100% !important;
+    }
+
+    .home-slider i {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .content {
+        width: 100%;
+    }
+
+    .w83 {
+        width: 77% !important;
+    }
+
+    .top_header {
+        width: 100%;
+    }
+
+    .sign-up-login a {
+        font-size: 15px;
+        margin-right: 5px;
+        font-weight: 500 !important;
+    }
+
+
+    .navCollumnBer .pcol-2 {
+        font-size: 25px;
+    }
+
+    .custom-canvas {
+        width: 100% !important;
+    }
+
+    border .navtab-bottom #league-tab .nav-link span {
+        font-size: 10px;
+    }
+
+    #mybets_offcanva {
+        width: 100%;
+    }
+
+    .my {
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+
+    .header_tabs .header_tabs_inner1 {
+        width: 35%;
+        color: var(--nav-text) !important;
+    }
+
+
+    .games-height {
+        height: 65px;
+        width: 62px;
+    }
+
+    .sports_header_tabs span {
+        font-size: 12px;
+    }
+
+    #sports .nav-item button {
+        padding: 3px 10px !important;
+    }
+
+    #sports .nav-item button i {
+        font-size: 14px;
+        color: var(--white);
+    }
+
+    .header_tabs i {
+        font-size: 13px;
+    }
+
+    #sports .nav-link {
+        font-size: 13px;
+        padding: 4px 6px;
+        font-weight: 600;
+        margin-right: 3px;
+    }
+
+    .navtab-bottom {
+        width: 100%;
+    }
+
+    #offcanvasExample {
+        left: 0;
+        top: 0;
+        width: 345px !important;
+    }
+
+    #bet_history_dates button {
+        font-size: 15px;
+    }
+
+    .header-settings .fs-18 {
+        font-size: 15px !important;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .sub-nav-down {
+        width: 18% !important;
+    }
+
+    .tab-content2 {
+        width: 81% !important;
+    }
+
+    .respText {
+        font-size: 9px !important;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .sub-nav-down {
+        width: 25% !important;
+    }
+
+    .tab-content2 {
+        width: 75% !important;
+    }
+
+    .sub-nav-down i {
+        font-size: 25px !important;
+    }
+
+    .games-height {
+        margin: 2px;
+    }
+
+    .ljsll {
+        font-size: 18px !important;
+    }
+
+    .wfgyh {
+        font-size: 8px !important;
+    }
+
+}
+@media only screen and (max-width: 428px) {
+
+.v-acount-list .v-list-item {
+    width: 92px;
+    height: 87px;
+    }
+}
+@media only screen and (max-width: 414px) {
+
+.v-acount-list .v-list-item {
+    width: 90px;
+    height: 85px;
+    }
+}
+@media only screen and (max-width: 412px) {
+    .swiper-slide img {
+            height: 110px;
+            width: 100%;
+        }
+.v-acount-list .v-list-item {
+    width: 78px;
+    height: 84px;
+}
+}
+@media only screen and (max-width: 390px) {
+
+.v-acount-list .v-list-item {
+    width: 84px;
+    height: 79px;
+    }
+}
+@media only screen and (max-width: 384px) {
+
+.v-acount-list .v-list-item {
+    width: 82px;
+    height: 76px;
+    }
+}
+@media only screen and (max-width: 375px) {
+
+.v-acount-list .v-list-item {
+        width: 80px;
+         height: 75px;
+        
+    }
+}
+@media only screen and (max-width: 360px) {
+
+.v-acount-list .v-list-item {
+        width: 76px;
+        height: 71px;
+    }
+    .swiper-slide img {
+        height: 112px;
+        width: 100%;
+    }
+}
