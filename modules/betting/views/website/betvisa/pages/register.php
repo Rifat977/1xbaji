@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/css/fontawesome.min.css')  ?>">
     <link rel="stylesheet" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/css/bootstrap.min.css')  ?>">
     <script src="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/js/jquery.min.js')  ?>"></script>
-    <link rel="icon" type="image/x-icon" href="http://161.97.146.24/modules/betting/views/website/betvisa/assets/images/fab_icon.png">
+    <link rel="icon" type="image/x-icon" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/images/favicon.png')  ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
