@@ -36,7 +36,7 @@
     
     <div id="preloader">
         <div class="preloader-content">
-            <img src="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/images/fab_icon.png')  ?>" alt="Logo">
+            <img src="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/images/logo.png')  ?>" alt="Logo">
         </div>
     </div>
     
