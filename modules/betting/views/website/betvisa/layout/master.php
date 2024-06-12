@@ -36,7 +36,7 @@
     
     <div id="preloader">
         <div class="preloader-content">
-            <h1>Hi</h1>
+            <img src="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/images/fab_icon.png')  ?>" alt="Logo">
         </div>
     </div>
     
@@ -152,14 +152,13 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Simulate loading time with a timeout (for demonstration purposes)
             setTimeout(function() {
                 var preloader = document.getElementById('preloader');
                 preloader.style.display = 'none';
                 
                 var mainContent = document.getElementById('main-content');
                 mainContent.style.display = 'block';
-            }, 2000); // Adjust the timeout duration as needed
+            }, 3000); 
         });
 
     </script>
