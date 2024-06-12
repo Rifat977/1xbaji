@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/css/daterangepicker.min.css')  ?>">
     <link rel="stylesheet" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/css/responsive.css')  ?>">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/images/fab_icon.png')  ?>">
+    <link rel="icon" type="image/x-icon" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/images/favicon.png')  ?>">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
     <script src="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/js/jquery.min.js')  ?>"></script>
 
