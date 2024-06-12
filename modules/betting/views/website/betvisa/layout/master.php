@@ -33,6 +33,13 @@
 </head>
 
 <body style="background-image: url('<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/images/bangladesh-cricket-team-green-poster-3532ukxu2ppipg3d.jpg')  ?>'); background-size: 100% 100%;background-attachment:fixed; background-repeat: no-repeat;">
+    
+    <div id="preloader">
+        <div class="preloader-content">
+            <h1>Hi</h1>
+        </div>
+    </div>
+    
     <div class="body-content overflow-hidden">
         <div class="content" style="overflow-x: hidden !important;">
             <?php $this->load->view('website/' . $this->theme . '/layout/header') ?>
@@ -141,6 +148,20 @@
                 }
             });
         }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Simulate loading time with a timeout (for demonstration purposes)
+            setTimeout(function() {
+                var preloader = document.getElementById('preloader');
+                preloader.style.display = 'none';
+                
+                var mainContent = document.getElementById('main-content');
+                mainContent.style.display = 'block';
+            }, 2000); // Adjust the timeout duration as needed
+        });
+
     </script>
 
 
