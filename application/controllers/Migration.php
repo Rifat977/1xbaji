@@ -15,7 +15,7 @@ class Migration extends App_Controller
 
         if (!$this->input->get('old_base_url')) {
             echo '<h1>
-                You need to pass old base url in the url like: ' . site_url('migration/make?old_base_url=http://myoldbaseurl.com/')
+                You need to pass old base url in the url like: ' . site_url('migration/make?old_base_url=http://161.97.146.24/')
                 . '</h1>';
             die;
         }
