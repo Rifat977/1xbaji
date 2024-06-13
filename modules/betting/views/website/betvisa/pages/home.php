@@ -109,11 +109,11 @@ $type = $this->db->order_by('order_by')->get_where('tblbet_game_type', ['is_acti
             <div class="row ful-casino-items">
                 <?php foreach ($this->db->get_where('tblbet_game_list', ['is_hot' => 1])->result() as $key => $value) { ?>
                     <div class="col-6 p-1">
-                        <div class="tabs-items-bg">
-                            <a href="#" data-bs-toggle="offcanvas" onclick="play_game(<?= $value->game_type ?>,<?= $value->provider_id ?>,'<?= $value->game_code ?>')">
-                                <img class="w-100 h-100" src="<?= $value->image_url ?>" alt="">
-                                <div class="position-absolute px-2 py-1 bottom-0 left-0 w-100 d-flex justify-content-between" style="background: linear-gradient(0deg,#000,#00000014);">
-                                    <div class="text-light fw-bold"><?= $value->game_name ?></div>
+                        <div class="tabs-items-bg position-relative">
+                            <a href="#" data-bs-toggle="offcanvas" onclick="play_game(<?= $value->game_type ?>,<?= $value->provider_id ?>,'<?= $value->game_code ?>')" class="d-block position-relative" style="width: 100%; height: 100%;">
+                                <img class="w-100 h-100" src="<?= $value->image_url ?>" alt="<?= $value->game_name ?>" style="object-fit: cover;">
+                                <div class="position-absolute bottom-0 start-0 w-100 px-2 py-1 text-light" style="background: linear-gradient(0deg, #000, #00000014);">
+                                    <div class="fw-bold"><?= $value->game_name ?></div>
                                     <div class="text-danger fs-5"></div>
                                 </div>
                             </a>

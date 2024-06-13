@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <title><?= 'Sports' ?? $title ?></title> -->
-    <title><?= get_option('company_name')  ?></title>
+    <title><?= get_option('company_name')  ?>.com - Best Online Gambling & Casino Games</title>
     <link rel="stylesheet" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/css/style.css')  ?>">
     <link rel="stylesheet" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/css/custom.css')  ?>">
     <link rel="stylesheet" href="<?= module_dir_url(BETTING_MODULE_NAME, 'views/website/betvisa/assets/css/all.min.css')  ?>">
