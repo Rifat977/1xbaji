@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://161.97.146.24/');
+define('APP_BASE_URL', 'https://2xbaji.com/');
 
 /*
 * --------------------------------------------------------------------------
