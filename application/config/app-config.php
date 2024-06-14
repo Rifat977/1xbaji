@@ -38,19 +38,19 @@ define('APP_ENC_KEY', '1f15f7e938995cd9d16edffcf4e5cde1');
  * Database Credentials
  * The hostname of your database server
  */
-define('APP_DB_HOSTNAME', 'localhost');
+define('APP_DB_HOSTNAME', 'auth-db1058.hstgr.io');
 /**
  * The username used to connect to the database
  */
-define('APP_DB_USERNAME', 'nextgami_1xbaji');
+define('APP_DB_USERNAME', 'u642774510_2xbaji');
 /**
  * The password used to connect to the database
  */
-define('APP_DB_PASSWORD', 'q.0WXmlSDC5_');
+define('APP_DB_PASSWORD', 'Rony@2025');
 /**
  * The name of the database you want to connect to
  */
-define('APP_DB_NAME', 'nextgami_1xbaji');
+define('APP_DB_NAME', 'u642774510_2xbaji');
 
 /**
  * @since  2.3.0
