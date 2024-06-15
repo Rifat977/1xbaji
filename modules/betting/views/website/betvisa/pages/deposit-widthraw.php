@@ -115,6 +115,18 @@ $csrf_hash  = $CI->security->get_csrf_hash();
 
                                         }
 
+                                    } else if ($value->type == 4) {
+
+                                        $name = 'Upay';
+
+                                        $url = 'https://seeklogo.com/images/U/upay-logo-44D7B11A45-seeklogo.com.png';
+
+                                        if (0) {
+
+                                            $url = base_url('modules/betting/upload/agent/' . get_option('upay'));
+
+                                        }
+
                                     }
 
                                     echo '<button class="nav-link ' . ($key == 0 ? 'show active' : '') . ' " id="paytab' . $value->id . '" data-bs-toggle="tab" data-bs-target="#tab' . $value->id . '" type="button" role="tab" aria-controls="#tab' . $value->id . '" aria-selected="true">
