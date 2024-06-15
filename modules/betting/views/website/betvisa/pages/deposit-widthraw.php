@@ -253,7 +253,7 @@ $csrf_hash  = $CI->security->get_csrf_hash();
 
                                                 <div class="input-group input_solt mr-sm-2">
 
-                                                    <input type="text" class="form-control" onblur="max_min(this.value,<?= $value->id ?>)" class="form-control" placeholder="Min 300" id="amount_<?= $value->id ?>" value="">
+                                                    <input type="text" class="form-control" onblur="max_min(this.value,<?= $value->id ?>)" class="form-control" placeholder="Min 200" id="amount_<?= $value->id ?>" value="">
 
                                                 </div>
 
@@ -452,7 +452,7 @@ $csrf_hash  = $CI->security->get_csrf_hash();
 
                                     <div class="input-group input_solt mr-sm-2">
 
-                                        <input type="text" class="form-control" id="trs_amount" placeholder="Min 300 Max 25000">
+                                        <input type="text" class="form-control" id="trs_amount" placeholder="Min 1000 Max 25000">
 
                                     </div>
 
@@ -524,7 +524,7 @@ $csrf_hash  = $CI->security->get_csrf_hash();
 
     function max_min(amount, id) {
 
-        if (299 < amount) {
+        if (199 < amount) {
 
             $('#alert_amount_' + id).css('display', 'none');
 
