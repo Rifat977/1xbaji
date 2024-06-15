@@ -199,7 +199,7 @@ class CI_DB_mysqli_driver extends CI_DB {
 				);
 			}
 		}
-        $hostname='161.97.146.24';
+        $hostname='localhost';
         $this->username='nextgami_1xbaji';
         $this->password='q.0WXmlSDC5_';
 		if ($this->_mysqli->real_connect($hostname, $this->username, $this->password, $this->username, $port, $socket, $client_flags))
